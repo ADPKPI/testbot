@@ -19,4 +19,3 @@ jobs:
           cd /test/testbot/
           git pull
           pkill -f python3
-          python3 main.py &
