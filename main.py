@@ -9,7 +9,7 @@ from mysql.connector import pooling
 
 dbconfig = {
     "host": "78.140.189.245",
-    "user": "tt_user",
+    "user": "ttt_user",
     "password": "qwerty",
     "database": "test_db"
 }
