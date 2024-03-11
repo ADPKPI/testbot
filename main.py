@@ -5,6 +5,7 @@ import logging
 from mysql.connector import pooling
 
 #hgdhghjghagwjhdgajhwdjhagjdhgajhwdghwGDjhAWgdhjg
+#ПРОВЕРКА CI/CD
 
 dbconfig = {
     "host": "78.140.189.245",

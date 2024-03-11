@@ -18,3 +18,4 @@ jobs:
         script: |
           cd /test/testbot/
           git pull
+          python3 main.py
