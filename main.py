@@ -4,6 +4,8 @@ import mysql.connector
 import logging
 from mysql.connector import pooling
 
+#hgdhghjghagwjhdgajhwdjhagjdhgajhwdghwGDjhAWgdhjg
+
 dbconfig = {
     "host": "78.140.189.245",
     "user": "tt_user",
