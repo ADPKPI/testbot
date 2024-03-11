@@ -16,5 +16,5 @@ jobs:
         username: ${{ secrets.SERVER_USER }}
         key: ${{ secrets.SSH_KEY }}
         script: |
-          cd /test
+          cd /test/testbot/
           git pull
