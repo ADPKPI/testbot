@@ -29,7 +29,7 @@ def show_table_content(update, context):
     cursor = cnx.cursor()
     cursor.execute("SELECT * FROM test_table")
     rows = cursor.fetchall()
-    message = "Table Contents:\n" + "\n".join([f"id: {row[0]}, name: {row[1]}" for row in rows])
+    message = "Table Contents!!!!!!!!!!!!!!!!:\n" + "\n".join([f"id: {row[0]}, name: {row[1]}" for row in rows])
     update.message.reply_text(message)
     cursor.close()
     cnx.close()  # Возвращение соединения в пул
